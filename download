@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+data/
+*.edf
+*.edf.event
+.DS_Store

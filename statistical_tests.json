@@ -1,0 +1,29 @@
+{
+  "participants": 20,
+  "lda_mean_balanced_accuracy": 0.5804406644080556,
+  "lda_bootstrap_95_ci": [
+    0.5191408161584791,
+    0.6468396797948428
+  ],
+  "lda_vs_chance": {
+    "test": "one-sided Wilcoxon signed-rank",
+    "chance_level": 0.5,
+    "p_value": 0.016469105864217855
+  },
+  "lda_vs_logistic": {
+    "test": "paired two-sided Wilcoxon signed-rank",
+    "p_value": 0.7582139293017673
+  },
+  "channel_configuration": {
+    "test": "Friedman repeated-measures test",
+    "p_value": 0.8482694364230151
+  },
+  "calibration_fraction": {
+    "test": "Friedman repeated-measures test",
+    "p_value": 0.011784796861939525
+  },
+  "calibration_75_vs_100": {
+    "test": "paired two-sided Wilcoxon signed-rank",
+    "p_value": 0.6006128474176513
+  }
+}
