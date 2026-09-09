@@ -1,0 +1,19 @@
+{
+  "participants_analyzed": 20,
+  "best_model": "CSP + shrinkage LDA",
+  "best_model_mean_balanced_accuracy": 0.5804406644080556,
+  "best_model_std_balanced_accuracy": 0.14865237649845398,
+  "filter_band_hz": [
+    8.0,
+    30.0
+  ],
+  "epoch_window_seconds": [
+    0.5,
+    3.5
+  ],
+  "imagery_runs": [
+    4,
+    8,
+    12
+  ]
+}
